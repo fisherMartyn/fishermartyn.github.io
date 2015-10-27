@@ -5,7 +5,7 @@ locale: zh_CN
 description: 
 logo: site-logo.png
 search: true
-url: 
+url: https://fishermartyn.github.io
 
 # Jekyll configuration
 
