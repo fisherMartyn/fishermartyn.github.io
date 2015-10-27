@@ -19,7 +19,7 @@ sitemap: false
 
 <!-- Search results placeholder -->
 <h6 data-search-found>
-  <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
+   &ldquo;<span data-search-found-term></span>&rdquo;.有<span data-search-found-count></span> 条搜索结果
 </h6>
 <ul class="post-list" data-search-results></ul>
 
