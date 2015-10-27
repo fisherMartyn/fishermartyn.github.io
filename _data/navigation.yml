@@ -1,19 +1,13 @@
 # Site navigation links
 
-- title: About
+- title: 关于我
   url: /about/
 
-- title: Articles
-  url: /articles/
-
-- title: Blog
+- title: 文章归档
   url: /blog/
 
-- title: Theme Setup
-  url: /theme-setup/
+- title: 阅读计划
+  url: http://book.douban.com/people/fishermartyn/
 
-- title: Made Mistakes
-  url: http://mademistakes.com
-
-- title: Search
+- title: 搜索
   url: /search/

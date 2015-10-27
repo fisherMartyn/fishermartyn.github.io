@@ -1,26 +1,18 @@
 ---
 layout: page
-title: About the Jekyll Theme
+title: 关于我
 excerpt: "So Simple is a responsive Jekyll theme for your words and images."
-modified: 2014-08-08T19:44:38.564948-04:00
-image:
-  feature: so-simple-sample-image-4.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+大家好，我是fisherMartyn。
 
-## So Simple Theme is all about:
+考上大学后一度迷茫，疯狂的玩过dota（目前已经戒了，有了新的兴趣），在出国和留在国内的路口徘徊过。浑浑噩噩的做过网络设备开发（OpenFlow），做过一年iOS开发，目前以web后端开发为业，喜欢小而美的东西。
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
+奔跑在技术之路上，看的越多发现自己知道的越少，目前正在大量的阅读计算机技术方面的好书。
+
+
+## 联系我:
+
+* <strong>邮箱：</strong>echo ZmlzaGVyX3RodUBmb3htYWlsLmNvbQ== \| base64 -d  (“-D” for mac)
+* <strong>豆瓣书单：</strong>[我的豆瓣书单](http://book.douban.com/people/fishermartyn/)
 * [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
-
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
-
-[^1]: Example: *domain.com/category-name/post-title*
