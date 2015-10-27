@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Search"
+title: 搜索本站
 date: 
 modified:
 excerpt:

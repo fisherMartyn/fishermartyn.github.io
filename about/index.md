@@ -15,4 +15,3 @@ excerpt: "So Simple is a responsive Jekyll theme for your words and images."
 
 * <strong>邮箱：</strong>echo ZmlzaGVyX3RodUBmb3htYWlsLmNvbQ== \| base64 -d  (“-D” for mac)
 * <strong>豆瓣书单：</strong>[我的豆瓣书单](http://book.douban.com/people/fishermartyn/)
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
