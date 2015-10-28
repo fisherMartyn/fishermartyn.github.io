@@ -49,4 +49,4 @@ vim同样可以做到很多IDE的文件导航功能，这个插件 <a href="gith
 
 最后上一张图吧：
 
-![Geometric pattern with fading gradient](/img/myvim.png)
+![Geometric pattern with fading gradient](/images/myvim.png)
