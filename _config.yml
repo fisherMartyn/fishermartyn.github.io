@@ -6,6 +6,7 @@ description:
 logo: site-logo.png
 search: true
 url: https://fishermartyn.github.io
+#url: http://127.0.0.1:4000/
 
 # Jekyll configuration
 
@@ -49,7 +50,7 @@ owner:
   weibo: #userid
   google:
     plus: #username
-    analytics:
+    analytics: fisherMartyn
     verify:
     ad-client:
     ad-slot:
