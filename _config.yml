@@ -36,7 +36,7 @@ owner:
   name: fisherMartyn
   avatar: bio-photo.jpg
   email: you@email.com
-  disqus-shortname:
+  disqus-shortname: fisherMartyn
   twitter: fisherMartyn 
   facebook: fisherMartyn 
   github: fisherMartyn 
@@ -54,3 +54,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
+
+# enable comments on every page
+comments: true
+
