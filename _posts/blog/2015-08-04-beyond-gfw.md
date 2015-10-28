@@ -12,7 +12,7 @@ tags: []
 
 看图说话：
 
-![Geometric pattern with fading gradient](/img/fq.png)
+![Geometric pattern with fading gradient](/images/fq.png)
 
 ## 材料准备
 
