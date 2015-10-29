@@ -5,7 +5,7 @@ author: fisherMartyn
 categories: blog
 excerpt:
 share: true
-tags: []
+tags: [iOS]
 ---
 
 布局是每个涉及前端的task必须考虑的问题，前端的繁杂一定程度上也与此有关。由于“画布”（屏幕）的大小不一，而程序员又不能接受为每个“画布”维护一套代码，因此良好的自动布局技术会让前端趋之若鹜。

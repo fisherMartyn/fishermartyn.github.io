@@ -3,7 +3,7 @@ layout :  post
 title : Vim一些插件
 categories: blog
 excerpt: 
-tags: []
+tags: [vim]
 ---
 
 仔细想想自己用Vim作为编辑器也是好几年的事情了，当时也只是为了用而用，觉得连wind$s上的notepad++都比vim好用，为什么大家却称vim为编辑器之神，直到现在都不敢说懂得了vim的精髓，不过慢慢玩了一些插件，感觉到自己对于vim的使用脱离了最基础的水平，因此本文可以称为vim插件的进阶吧。

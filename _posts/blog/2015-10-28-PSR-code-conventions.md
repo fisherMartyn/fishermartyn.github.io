@@ -3,7 +3,7 @@ layout: post
 title: PHP的PSR编码规范
 categories: blog
 excerpt:
-tags: []
+tags: [PHP]
 ---
 
 ## PSR

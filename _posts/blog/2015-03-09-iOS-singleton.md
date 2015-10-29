@@ -3,7 +3,7 @@ layout: post
 title: iOS中的单例
 categories: blog
 excerpt:
-tags: []
+tags: [iOS]
 ---
 
 ios中的单例无处不在，在设计单例的时候需要考虑其他入口拦截等。

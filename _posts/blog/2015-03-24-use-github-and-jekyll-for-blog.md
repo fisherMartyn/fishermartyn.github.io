@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 利用github和Jeklly搭建博客
+title: 利用github和Jekyll搭建博客
 categories: blog
 excerpt:
-tags: []
+tags: [jekyll]
 ---
 阮一峰说人们喜欢博客有三个阶段:
 
@@ -13,7 +13,7 @@ tags: []
 
 在使用LAMP架构和wordpress搭建了一年以后，深刻的感受到其不方便之处。时间一长，主机和域名是比不小的开销；服务不稳定，经常需要重启服务；带宽受限制，不同的网络访问速度不同等。
 
-最近终于有时间把利用github和Jekkly搭建一个轻量级的博客，想写一些短小而精致的东西，首先介绍下使用github和Jeklly构建博客。
+最近终于有时间把利用github和Jekyll搭建一个轻量级的博客，想写一些短小而精致的东西，首先介绍下使用github和Jekyll构建博客。
 
 1、创建github主页代码仓库
 

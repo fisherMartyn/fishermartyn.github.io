@@ -3,7 +3,7 @@ layout: post
 title: 开始使用Tmux
 categories: blog
 excerpt:
-tags: []
+tags: [tmux]
 ---
 
 tmux是指通过一个终端登录远程主机并运行后，在其中可以开启多个控制台的终端复用软件。
