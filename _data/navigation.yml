@@ -1,8 +1,5 @@
 # Site navigation links
 
-- title: 关于我
-  url: /about/
-
 - title: 文章归档
   url: /blog/
 
