@@ -14,7 +14,7 @@ sitemap: false
 <form method="get" action="{{ site.url }}/search/" data-search-form class="simple-search">
   <label for="q">Search {{ site.title }} for:</label>
   <input type="search" name="q" id="q" placeholder="填入你搜索的内容" data-search-input id="goog-wm-qt" autofocus />
-  <input type="submit" value="Search" id="goog-wm-sb" />
+  <input type="submit" value="搜索" id="goog-wm-sb" />
 </form>
 
 <!-- Search results placeholder -->
