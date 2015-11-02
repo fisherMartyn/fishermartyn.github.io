@@ -14,11 +14,11 @@ tags: [think]
 
 ![Geometric pattern with fading gradient](/images/fq.png)
 
-## 材料准备
+##  主要步骤
 
-1、国外的vps，阿里云之流是不行的。
+1、申请国外的vps（例如linode或者amazon ec2），阿里云之流是不行的。
 
-2、linux或者unix操作系统。
+2、选择linux或者unix操作系统。
 
 3、安装PPTP服务器。
 
@@ -26,7 +26,7 @@ tags: [think]
 
 ##  vps
 
-用了amazon的服务器，物理位置在Japan。
+用了amazon ec2的服务器，物理位置在Japan。
 
 ## 操作系统
 
