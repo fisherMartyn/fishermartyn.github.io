@@ -6,7 +6,7 @@ excerpt: "So Simple is a responsive Jekyll theme for your words and images."
 
 大家好，我是fisherMartyn。
 
-考上大学后一度迷茫，疯狂的玩过dota，目前已经戒了（不，并不是因为玩的菜，是因为有了新的兴趣），在出国和留在国内的路口徘徊过。
+考上大学后一度迷茫，疯狂的玩过dota，目前已经戒了（不，并不是因为玩的菜，是因为有了新的兴趣，对），在出国和留在国内的路口徘徊过。
 
 浑浑噩噩的做过网络设备开发（OpenFlow），做过一年iOS开发，目前以web后端开发为业，喜欢小而美的东西。
 
