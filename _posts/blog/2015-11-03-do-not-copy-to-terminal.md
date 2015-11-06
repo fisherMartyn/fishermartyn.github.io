@@ -29,4 +29,4 @@ https://github.com/fisherMartyn/fisherMartyn.github.io
 
 
 ## 参考
-这篇文章是源于看到这个地址的:[website-terminal-copy-paste](website-terminal-copy-paste)
+这篇文章是源于看到这个地址的:[website-terminal-copy-paste](http://thejh.net/misc/website-terminal-copy-paste)
