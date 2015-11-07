@@ -46,7 +46,7 @@ tags: [think]
 
  参考
 
-1、http://5323197.blog.51cto.com/5313197/1285738
+1、[centos6.4 安装配置 pptp vpn](http://5323197.blog.51cto.com/5313197/1285738)
 
-2、http://blog.fens.me/ubuntu-vpn-pptp/
+2、[在Ubuntu上安装pptp vpn服务器](http://blog.fens.me/ubuntu-vpn-pptp/)
 
