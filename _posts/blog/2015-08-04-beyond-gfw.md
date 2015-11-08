@@ -16,7 +16,7 @@ tags: [vpn]
 
 ##  主要步骤
 
-1、申请国外的vps（例如linode或者amazon ec2），阿里云之流是不行的。
+1、申请国外的vps（例如linode或者amazon ec2），地点最好选美国。
 
 2、选择linux或者unix操作系统。
 
@@ -26,41 +26,28 @@ tags: [vpn]
 
 ##  vps
 
-用了amazon ec2的服务器，物理位置在Japan。
+用了amazon ec2的服务器，物理位置在加利福尼亚州北部。
 
 ## 操作系统
 
-用了centos，基本软件安装用yum或者rpm就够了。
+用了Amazon的Aws系统，也是REHL系列，基本软件安装用yum就够了。
 
 ## PPTP服务器安装和配置
 
 ### 软件安装
 
-基本的软件安装主要是ppp、iptables和pptpd，ppp和iptables一般是系统自带的，需要自己安装pptpd，如果下载的pptpd版本太高，可以从[这里](http://rpmfind.net/linux/rpm2html/search.php?query=pptpd)下载一个版本较低的pptpd文件进行安装。
+基本的软件安装主要是pptpd，我是从[这里](http://poptop.sourceforge.net/yum/stable/rhel6/x86_64/pptpd-1.4.0-1.el6.x86_64.rpm)下载的pptpd文件。
+
+使用`yum localinstall xxx`(刚才下载的文件名)进行安装。
 
 ### 修改pptpd options配置文件
 
-在rehl相关系统上是`/etc/ppp/options.pptpd`，在ubuntu等发布系统上是`/etc/ppp/pptpd-options`
+在rehl相关系统上是`/etc/ppp/options.pptpd`
 
 {% highlight php %}
 
-name pptpd #pptpd服务器名称
-refuse-pap    #拒绝pap身份认证模式
-refuse-chap   #拒绝chap身份认证模式
-refuse-mschap #拒绝mschap身份认证模式
-require-mschap-v2  #允许mschap-v2身份认证模式
-require-mppe-128  #允许mppe 128位加密身份认证模式
 ms-dns 8.8.8.8 #使用Google DNS
 ms-dns 8.8.4.4 #使用Google DNS
-proxyarp  #arp代理
-debug #调试模式,可选
-dump #服务启动时打印出所有配置信息，可选
-lock #锁定TTY设备
-nobsdcomp  #禁用BSD压缩模式
-novj  #禁用vj压缩模式
-novjccomp  #禁用vj压缩模式
-nologfd #禁用stderr的log
-idle 2592000 #设置idel时间？
 
 {% endhighlight %}
 
@@ -80,10 +67,8 @@ myusername pptpd mypasswd *
 
 {% highlight php %}
 
-option /etc/ppp/options.pptpd #指定pptpd options文件位置
-logwtmp #使用wtmp(5)来记录客户端连接log
-localip 192.168.0.1  #localip地址
-remoteip 192.168.0.234-238,192.168.0.245 #remoteip地址
+localip 192.168.9.1  #localip地址
+remoteip 192.168.9.11-30 #remoteip地址
 
 {% endhighlight %}
 
@@ -91,39 +76,51 @@ remoteip 192.168.0.234-238,192.168.0.245 #remoteip地址
 ## 增加路由表规则
 
 ###   修改sysctl
+
 编辑`/etc/sysctl.conf`文件，修改内容主要包括：
 {% highlight php %}
 
 net.ipv4.ip_forward = 1 #打开
-# net.ipv4.tcp_syncookies = 1 #注释掉
 
 {% endhighlight %}
 
 并确保执行了`sysctl -p`重启该服务
 
-利用iptables进行管理
+### 利用iptables进行管理
 
 修改iptables的nat转发:
+
 {% highlight php %}
 
-#下面两条命令都可以，如果上面的报错或者异常，可以尝试下面的
-sudo iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE
-sudo iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j SNAT --to-source xxx.xxx.xxx.xxx
+sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 
-#注意保存和重启
-sudo service iptables save
-sudo service iptables restart
 {% endhighlight %}
 
-其中`-s`参数后面跟的是上面的`/etc/pptpd.conf`中的地址字段，`--to-source`后面跟的是自己vps的公网ip地址，`-o`参数后面跟的是公网的网卡名。
+## 重启服务
+
+{% highlight php %}
+service pptpd start
+chkconfig pptpd on
+{% endhighlight %}
 
 ## iphone的连接
 
 利用iphone自带的vpn，利用pptp协议连接即可。
 
+## 其它说明
+
+1、按照上面的流程，Amazon Japan ECS貌似不好使了，换成了美国加利福尼亚北部以后，可以正常连接。
+
+2、Amazon ECS默认是只开放了22端口，需要自己在安全组里打开1723端口。
+
+3、日志的位置是`/var/log/message`，出现问题可以在这里查看。
+
+
  参考
 
-1、[centos6.4 安装配置 pptp vpn](http://5323197.blog.51cto.com/5313197/1285738)
+1、[Amazon Ec2上搭建pptp服务器](http://www.yzhang.net/blog/2013-03-07-pptp-vpn-ec2.html)
 
-2、[在Ubuntu上安装pptp vpn服务器](http://blog.fens.me/ubuntu-vpn-pptp/)
+2、[centos6.4 安装配置 pptp vpn](http://5323197.blog.51cto.com/5313197/1285738)
+
+3、[在Ubuntu上安装pptp vpn服务器](http://blog.fens.me/ubuntu-vpn-pptp/)
 
