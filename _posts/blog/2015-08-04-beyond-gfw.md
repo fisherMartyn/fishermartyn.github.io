@@ -3,7 +3,7 @@ layout: post
 title : 天朝必备技能
 categories: blog
 excerpt:
-tags: [think]
+tags: [vpn]
 ---
 
 我梦寐以求，是真爱和自由。
