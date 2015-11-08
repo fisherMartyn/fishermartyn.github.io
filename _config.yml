@@ -36,12 +36,11 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 owner:
   name: fisherMartyn
   avatar: fisher-avatar.png
-  email: you@email.com
+  email: fisher_thu@foxmail.com
   disqus-shortname: fisherMartyn
-  twitter: fisherMartyn 
   facebook: fisherMartyn 
   github: fisherMartyn 
-  stackexchange: #http://stackoverflow.com/users/123456/username
+  stackexchange: https://stackoverflow.com/users/3959768/fishermartyn
   linkedin: #username
   instagram: #username
   flickr: #username
