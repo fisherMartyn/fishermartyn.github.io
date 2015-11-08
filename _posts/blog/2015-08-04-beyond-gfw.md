@@ -53,7 +53,7 @@ ms-dns 8.8.4.4 #使用Google DNS
 
 ### 增加用户名和密码
 
-修改/etc/ppp/chap-secrets文件，增加用户名、密码和ip地址的限制。
+修改`/etc/ppp/chap-secrets`文件，增加用户名、密码和ip地址的限制。
 {% highlight php %}
 # Secrets for authentication using CHAP
 # client        server  secret                  IP addresses
