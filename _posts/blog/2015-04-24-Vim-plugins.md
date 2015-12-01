@@ -32,11 +32,6 @@ vim同样可以做到很多IDE的文件导航功能，这个插件 <a href="gith
 
 <a href = "https://github.com/Valloric/YouCompleteMe">YCM(YouCompleteMe)</a>是目前在用的补全工具，对于c系列的语言其支持语法分析，而对于php和perl等，只是做了利用vim自带的omni补全，不过也基本够用
 
-### vim中执行命令
-
-这个插件<a href= "https://github.com/christoomey/vim-run-interactive">vim-run-interactive</a>不退出vim而进行命令的执行，如果通过配置成快捷键，则更简单一些。
-
-
 ### 感谢和其它
 
 感谢<a href = "http://yuez.me/jiang-ni-de-vim-da-zao-cheng-qing-qiao-qiang-da-de-ide/">这篇文章</a>，另外也参考了<a href="http://www.zhihu.com/question/22904741">知乎上关于vim的讨论</a>
