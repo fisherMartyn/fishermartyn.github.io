@@ -36,6 +36,8 @@ vim同样可以做到很多IDE的文件导航功能，这个插件 <a href="gith
 
 感谢<a href = "http://yuez.me/jiang-ni-de-vim-da-zao-cheng-qing-qiao-qiang-da-de-ide/">这篇文章</a>，另外也参考了<a href="http://www.zhihu.com/question/22904741">知乎上关于vim的讨论</a>
 
+感兴趣的读者可以clone我在github上的<a href="https://github.com/fisherMartyn/dotfile">dotfile</a>
+
 最后上一张图吧：
 
 ![Geometric pattern with fading gradient](/images/myvim.png)
