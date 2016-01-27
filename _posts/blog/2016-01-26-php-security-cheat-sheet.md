@@ -3,7 +3,7 @@ layout: post
 title: PHP安全手册
 categories: blog
 excerpt:
-tags: [Security]
+tags: [Security, PHP]
 ---
 
 # 介绍
