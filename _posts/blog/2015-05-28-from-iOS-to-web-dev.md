@@ -2,7 +2,7 @@
 layout: post
 title: 写在从iOS转web开发之前
 categories: blog
-excerpt:
+excerpt: 我的技术小转弯
 tags: [think]
 ---
 马上准备从iOS开发转做web后端了，从开始学习oc语言到跟公司的iOS发版转瞬之间已经过去了10个月，忽然感慨良多。

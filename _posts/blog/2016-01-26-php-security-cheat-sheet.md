@@ -2,7 +2,7 @@
 layout: post
 title: PHP安全手册
 categories: blog
-excerpt:
+excerpt: OWSAP的PHP安全手册翻译
 tags: [Security, PHP]
 ---
 

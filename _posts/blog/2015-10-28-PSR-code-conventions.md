@@ -2,7 +2,7 @@
 layout: post
 title: PHP的PSR编码规范
 categories: blog
-excerpt:
+excerpt: 一种PHP编码规范
 tags: [PHP]
 ---
 
