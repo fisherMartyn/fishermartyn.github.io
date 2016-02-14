@@ -2,7 +2,7 @@
 layout: post
 title: 开始使用Tmux
 categories: blog
-excerpt:""
+excerpt: 一种远程会话保存方式和工具
 tags: [tmux]
 ---
 
