@@ -12,6 +12,8 @@ excerpt: "So Simple is a responsive Jekyll theme for your words and images."
 
 奔跑在技术之路上，看的越多发现自己知道的越少，目前正在大量的阅读计算机技术方面的好书。
 
+身处日新月异的互联网时代，并从业其中，深以为是一件幸事。
+
 你可以查看我的[文章归档](/blog/)或者[标签云](/tags/)。
 
 ## 联系我:
