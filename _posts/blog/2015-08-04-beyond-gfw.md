@@ -2,7 +2,7 @@
 layout: post
 title : 天朝必备技能
 categories: blog
-excerpt:""
+excerpt: 大(Great)火(Fire)墙(Wall)，你懂得
 tags: [vpn]
 ---
 
