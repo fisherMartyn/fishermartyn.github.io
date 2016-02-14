@@ -2,7 +2,7 @@
 layout: post
 title: iOS中的单例
 categories: blog
-excerpt:
+excerpt:""
 tags: [iOS]
 ---
 

@@ -2,7 +2,7 @@
 layout :  post
 title : 设计模式-抽象工厂模式
 categories: blog
-excerpt: 
+excerpt: ""
 tags: [design pattern]
 ---
 

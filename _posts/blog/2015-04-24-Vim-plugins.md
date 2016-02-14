@@ -2,7 +2,7 @@
 layout :  post
 title : Vim一些插件
 categories: blog
-excerpt: 
+excerpt: ""
 tags: [vim]
 ---
 

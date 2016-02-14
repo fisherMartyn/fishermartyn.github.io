@@ -2,7 +2,7 @@
 layout: post
 title: 利用github和Jekyll搭建博客
 categories: blog
-excerpt:
+excerpt:""
 tags: [jekyll]
 ---
 阮一峰说人们喜欢博客有三个阶段:
