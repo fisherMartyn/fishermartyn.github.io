@@ -2,7 +2,7 @@
 layout: post
 title: 如何设计一个良好的API接口
 categories: blog
-excerpt:
+excerpt: ""
 tags: [API]
 ---
 
