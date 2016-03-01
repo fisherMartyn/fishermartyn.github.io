@@ -42,7 +42,9 @@ $c->test();
 {% endhighlight %}
 
 运行的结果是:
+
 A load()
+
 B load()
 
 我看到这个结果的时候，有两个惊讶：
@@ -90,8 +92,11 @@ $c->test();
 {% endhighlight %}
 
 结果是：
+
 A load()
+
 B load()
+
 B load()
 
 是的，同样令人震惊的有两点：
