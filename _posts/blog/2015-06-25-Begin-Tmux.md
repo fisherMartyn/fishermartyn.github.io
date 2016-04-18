@@ -31,6 +31,7 @@ tmux的所有操作由`Prefix-Command`和快捷键组成，即所有快捷键前
 ------------ | ------------
 打开tmux     | $tmux
 恢复tmux     | $tmux attach
+{: .table}
 
 
 ### Session相关
@@ -40,6 +41,7 @@ tmux的所有操作由`Prefix-Command`和快捷键组成，即所有快捷键前
 切换session  | prefix + s
 离开session  | prefix + d
 命名session  | prefix + $
+{: .table}
 
 ### 窗口相关
 
@@ -49,6 +51,7 @@ tmux的所有操作由`Prefix-Command`和快捷键组成，即所有快捷键前
 关闭窗口     | prefix + &
 切换窗口     | prefix + 窗口号
 重命名窗口   | prefix + ,
+{: .table}
 
 ### Panel相关
 
@@ -60,6 +63,7 @@ tmux的所有操作由`Prefix-Command`和快捷键组成，即所有快捷键前
 关闭面板           | prefix + x
 显示面板编号       | prefix + q
 选择面板           | prefix + o/方向键
+{: .table}
 
 
 ## 其他操作
@@ -67,6 +71,7 @@ tmux的所有操作由`Prefix-Command`和快捷键组成，即所有快捷键前
 操作               | 快捷键
 -----------------  | -----------
 滚屏               | prefix + [
+{: .table}
 
 
 ## tmux命令行
@@ -75,6 +80,7 @@ tmux的所有操作由`Prefix-Command`和快捷键组成，即所有快捷键前
 --------         | -------     | ----------
 tmux ls          | 查看所有连接| tls
 tmux a -t [name] | 连接        | tat
+{: .table}
 
 ## 参考链接
 
