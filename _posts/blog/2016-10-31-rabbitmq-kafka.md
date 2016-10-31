@@ -67,3 +67,4 @@ kafka号称具有以时间复杂度O(1)的方式提供消息持久化的能力�
 1. 《rabbitmQ In Action》
 2. http://www.infoq.com/cn/articles/kafka-analysis-part-1
 3. https://www.rabbitmq.com/confirms.html
+4. 本文图片属于盗图，侵权请联系我删除
