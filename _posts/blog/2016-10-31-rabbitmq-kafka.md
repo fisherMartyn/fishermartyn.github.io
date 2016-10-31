@@ -61,6 +61,8 @@ kafka号称具有以时间复杂度O(1)的方式提供消息持久化的能力�
 ## 后续
 本文中，对于kafka的部分内容仅限于`道听途说`的层次，对于rabbitMQ的内容也仅限于官方文档，而没有到代码层面。后续有需呀可以进行更深入的分析。
 
+另外，spring amqp对于rabbitMQ有新一层的抽象，也增加了一些特性，需要进行进一步深入的分析。
+
 # 参考
 1. 《rabbitmQ In Action》
 2. http://www.infoq.com/cn/articles/kafka-analysis-part-1
