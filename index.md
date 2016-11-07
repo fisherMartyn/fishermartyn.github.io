@@ -8,7 +8,7 @@ excerpt: "So Simple is a responsive Jekyll theme for your words and images."
 
 身处日新月异的互联网时代，并从业其中，深以为是一件幸事。
 
-奔跑在技术之路上，看的越多发现自己知道的越少，你可以查看<a href="http://book.douban.com/people/fishermartyn/">我的书单</a>）, [文章归档](/blog/)或者[标签云](/tags/)。
+你可以查看 我的[文章归档](/blog/)、[标签云](/tags/)或者<a href="http://book.douban.com/people/fishermartyn/">豆瓣书单</a>。
 
 
 ## 联系我:
