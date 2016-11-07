@@ -6,15 +6,10 @@ excerpt: "So Simple is a responsive Jekyll theme for your words and images."
 
 你好，欢迎来到本站，我是fisherMartyn。
 
-考上大学后一度迷茫，疯狂的玩过dota，目前已经戒了（不，并不是因为玩的菜，是因为有了新的兴趣，对），在出国和留在国内的路口徘徊过。
-
-浑浑噩噩的做过网络设备开发（OpenFlow），做过一年iOS开发，目前以web后端服务为业。
-
-奔跑在技术之路上，看的越多发现自己知道的越少，目前正在大量的阅读计算机技术方面的好书（<a href="http://book.douban.com/people/fishermartyn/">我的书单</a>）。
-
 身处日新月异的互联网时代，并从业其中，深以为是一件幸事。
 
-你可以查看我的[文章归档](/blog/)或者[标签云](/tags/)。
+奔跑在技术之路上，看的越多发现自己知道的越少，你可以查看<a href="http://book.douban.com/people/fishermartyn/">我的书单</a>）, [文章归档](/blog/)或者[标签云](/tags/)。
+
 
 ## 联系我:
 
