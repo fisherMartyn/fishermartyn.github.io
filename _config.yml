@@ -54,6 +54,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
+  baidu-siteid: e70a9a72459e5c5fa324d6dbcb738dc2
 
 # enable comments on every page
 comments: true
