@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FisherMartyn的个人主页
+title: 
 ---
 
 你好，欢迎来到本站，我是fisherMartyn。
