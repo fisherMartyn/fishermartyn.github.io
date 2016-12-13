@@ -11,7 +11,7 @@ title:
 
 有时会写点东西，记录在[文章](/blog/)、[标签云](/tags/)。
 
-## 联系我:
+**联系我:**
 
 * <strong>邮箱</strong>：`echo ZmlzaGVyX3RodUBmb3htYWlsLmNvbQ== | base64 -d` (`-D` for mac)
 * <strong>社交网络</strong>：本站footer下的社交网站帐号
