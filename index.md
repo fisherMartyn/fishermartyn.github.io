@@ -1,7 +1,6 @@
 ---
 layout: page
 title: 
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
 ---
 
 你好，欢迎来到本站，我是fisherMartyn。
