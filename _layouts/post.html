@@ -45,19 +45,9 @@
           <div id="disqus_thread"></div><!-- /#disqus_thread -->
           {% include disqus-comments.html %}
         {% endif %}
+        {% include changyan-comments.html %}
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
-
-    <!--搜狐畅言高速版-->
-    <div id="SOHUCS" ></div>
-    <script charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/changyan.js" ></script>
-    <script type="text/javascript">
-    window.changyan.api.config({
-    appid: 'cysKdC6UP',
-    conf: 'prod_503ea8e7d32e7646cbc6d6073e62ffbb'
-    });
-    </script>
-
     
     <nav class="pagination" role="navigation">
       {% if page.previous %}
