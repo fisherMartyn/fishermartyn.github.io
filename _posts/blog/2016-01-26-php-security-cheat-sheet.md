@@ -351,9 +351,9 @@ session应该在一定时间后失效，无论是活动还是静止状态。超�
 
 可以使用`session_name()`来获得php默认session cookie名。
 #### HTTP only
-现代的浏览器支持HTTP-Only的cookies，这种cookie只可以通过HTTP(s)请求访问，不能被javascript访问，所以XSS的代码无法访问。这是很好的安全实践，但是并不能很令人满意，因为很多主流的浏览器发现了很多Http-Only的cookie暴露给JavaScript的bug。
+现代的浏览器支持HTTP-Only的cookies，这种cookie只可以通过HTTP(s)请求访问，不能被javascript访问，所以XSS的代码无法访问。这是很好的安全实践，但是并不能很令人满意，因为很多主流的浏览器发现了很多Http-Only的cookie暴露给JavaScript的bug。
 
-PHP5.2+版本支持Http-Only cookie，你要手动设置http session cookie（不是使用session_start）
+PHP5.2+版本支持Http-Only cookie，你要手动设置http session cookie（不是使用session_start）
 
     #prototype
     bool setcookie ( string $name [, string $value [, int $expire = 0 [, string $path [, string $domain [, bool $secure = false [, bool $httponly = false ]]]]]] )
