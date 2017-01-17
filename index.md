@@ -11,9 +11,11 @@ title:
 
 有时会写点东西，记录在[文章](/blog/)、[标签云](/tags/)。
 
+你可以通过下面到联系方式联系我，也可以在每篇文章到下方留言讨论相关问题。
+
 **联系我:**
 
 * <strong>邮箱</strong>：`echo ZmlzaGVyX3RodUBmb3htYWlsLmNvbQ== | base64 -d` (`-D` for mac)
-* <strong>社交网络</strong>：本站footer下的社交网站帐号
+* <strong>社交网络</strong>：见本站footer
 * <strong>豆瓣书单</strong>：[我的豆瓣书单](https://book.douban.com/people/fishermartyn/)
 
