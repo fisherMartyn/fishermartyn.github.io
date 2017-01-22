@@ -15,7 +15,7 @@ title:
 
 **联系我:**
 
-* <strong>邮箱</strong>：`echo ZmlzaGVyX3RodUBmb3htYWlsLmNvbQ== | base64 -d` (`-D` for mac)
+* <strong>邮箱</strong>：`echo "ZmlzaGVyX3RodUBmb3htYWlsLmNvbQo=" | base64 -d` (`-D` for mac)
 * <strong>社交网络</strong>：见本站footer
 * <strong>豆瓣书单</strong>：[我的豆瓣书单](https://book.douban.com/people/fishermartyn/)
 
