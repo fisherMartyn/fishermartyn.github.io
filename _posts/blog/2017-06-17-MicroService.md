@@ -3,7 +3,7 @@ layout: post
 title: 对于微服务的思考
 categories: blog
 excerpt: 对于微服务的新感悟
-tags: [microservice]
+tags: [微服务]
 ---
 
 ## 起源
