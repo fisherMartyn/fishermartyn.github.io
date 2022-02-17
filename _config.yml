@@ -37,7 +37,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: fisherMartyn
-  avatar: fisher-avatar.png
+  avatar: fisher-new-avatar.png
   email: fisher_thu@foxmail.com
   #disqus-shortname: fisherMartyn
   facebook: #fisherMartyn 
